@@ -64,6 +64,7 @@ function App() {
         </div>
       )}
       <Routes>
+        {/*path parameter : id*/}
         <Route path="/detail/:id" element={<CafeDetail />} />
       </Routes>
     </div>
